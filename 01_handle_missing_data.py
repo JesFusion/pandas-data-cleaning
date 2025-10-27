@@ -1,4 +1,5 @@
-import numpy as np, pandas as pd
+import numpy as np
+import pandas as pd
 
 
 data = {
@@ -21,12 +22,8 @@ mean_age = p_dataset["Age"].mean()
 
 p_dataset["Age"], p_dataset["Salary"] = p_dataset["Age"].fillna(mean_age), p_dataset["Salary"].fillna(0)
 
+print(f'''
+============================= new, cleaned DataFrame =============================
 
-# print("\n", p_dataset, "\n")
-
-
-
-
-
-
-
+{p_dataset}
+''')
