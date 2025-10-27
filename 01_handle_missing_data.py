@@ -2,13 +2,13 @@ import numpy as np
 import pandas as pd
 
 
-data = {
+the_d_set = {
     'Name': ['Alice', 'Bob', 'Carol', 'David', 'Emily'],
     'Age': [25, 30, np.nan, 22, 35],
     'Salary': [50000, 65000, 70000, np.nan, 90000]
 }
 
-p_dataset = pd.DataFrame(data = data)
+p_dataset = pd.DataFrame(data = the_d_set)
 
 print(f'''
 ============================= original dataset =============================
