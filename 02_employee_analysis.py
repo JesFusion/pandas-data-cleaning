@@ -1,8 +1,4 @@
 import pandas as pd
-import numpy as np
-import time
-
-
 
 
 data = {
@@ -52,16 +48,4 @@ print(f'''
       
 {agg_algorithm}
 ''')
-
-
-
-
-
-
-
-
-
-
-
-
 
